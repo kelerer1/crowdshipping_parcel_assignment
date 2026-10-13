@@ -40,3 +40,4 @@ class AreaClass:
         Saves the info as a gpkg file.
         """
         ox.io.save_graph_geopackage(self.G, filepath=f'./{self.name[:4]}_graph.gpkg')
+
